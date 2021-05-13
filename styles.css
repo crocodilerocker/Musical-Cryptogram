@@ -70,7 +70,7 @@ h2 {
 }
 
 .input {
-    width: 300px;
+    width: 50%;
     font-family: var(--sans-serif);
     font-size: medium;
     text-align: center;
