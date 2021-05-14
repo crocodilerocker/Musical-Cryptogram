@@ -105,7 +105,7 @@ a:hover {
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: var(--light-blue);
+    background-color: #FF8600;
     font-family: var(--sans-serif);
     font-size: 32px;
     font-weight: 700;
