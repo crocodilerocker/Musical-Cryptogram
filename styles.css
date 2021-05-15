@@ -45,6 +45,13 @@ h1 {
     margin: 15px;
 }
 
+@media(max-width: 720px) {
+    .header {
+        font-size: 38px;
+        width: 250px;
+    }
+}
+
 .header:hover {
     cursor:default;
 }
