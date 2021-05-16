@@ -33,16 +33,22 @@ body {
 
 /* Top elements */
 
-h1 {
+h1, h2{
     font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
+h1 {
     font-size: 60px;
     color: white;
     text-align: left;
     font-style: italic;
     margin: 15px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    display: block;
 }
 
 @media(max-width: 720px) {
@@ -52,24 +58,11 @@ h1 {
     }
 }
 
-.header:hover {
-    cursor:default;
-}
-
 .about {
     font-size: 15px;
 }
 
-h2 {
-    font-weight: 700;
-}
-
 /* Bottom elements */
-
-.try {
-    font-size: 32px;
-    display: block;
-}
 
 .generator {
     width: 100%;
@@ -78,7 +71,7 @@ h2 {
 
 .input {
     width: 80%;
-    max-width: 300px;
+    max-width: 265px;
     font-family: var(--sans-serif);
     font-size: medium;
     text-align: center;
@@ -112,7 +105,7 @@ a:hover {
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: #FF8600;
+    background-color: hsl(35, 100%, 50%);
     font-family: var(--sans-serif);
     font-size: 32px;
     font-weight: 700;
@@ -122,7 +115,7 @@ a:hover {
 
 .button:hover {
     transform: scale(110%);
-    text-shadow: 0 0 2px white;
+    background-color: hsl(35, 100%, 60%);
 }
 
 .button:active {
