@@ -3,10 +3,10 @@
 /* Main */
 
 :root {
-    --dark-blue: #0379AB;
-    --light-blue: #5ACAFA;
-    --light-orange: #FFA53D;
-    --dark-orange: #FA9623;
+    --dark-blue: #0373AB;
+    --light-blue: #2EB6FA;
+    --light-orange: #FFA93D;
+    --dark-orange: #FA9A23;
     --sans-serif: 'Lato', Arial, Helvetica, sans-serif;
 }
 
@@ -70,42 +70,24 @@ h2 {
 
 .generator {
     width: 100%;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .input {
     width: 80%;
     max-width: 265px;
+    padding: 2px;
+    margin: 10px;
     font-family: var(--sans-serif);
     font-size: medium;
     text-align: center;
-    padding: 2px;
     border: solid 2px var(--light-blue);
 }
-
-.credits {
-    background-color: white;
-    font-size: 10px;
-}
-
-/* Links */
-
-a {
-    color: black;
-    text-decoration: none;
-    transition: .2s;
-}
-
-a:hover {
-    cursor: pointer;
-    color: var(--light-blue);
-}
-
-/* Button */
 
 .button {
     width: 100px;
     padding: 10px;
+    margin-top: 20px;
     border: none;
     border-radius: 10px;
     color: white;
@@ -124,4 +106,22 @@ a:hover {
 
 .button:active {
     transform: scale(100%);
+}
+
+.credits {
+    background-color: white;
+    font-size: 10px;
+}
+
+/* Links */
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--light-blue);
 }
