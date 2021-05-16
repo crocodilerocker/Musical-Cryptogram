@@ -3,8 +3,10 @@
 /* Main */
 
 :root {
-    --dark-blue: #004EBC;
-    --light-blue: #00B5FF;
+    --dark-blue: #0379AB;
+    --light-blue: #5ACAFA;
+    --light-orange: #FFA53D;
+    --dark-orange: #FA9623;
     --sans-serif: 'Lato', Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +19,7 @@ body {
 }
 
 .app {
+    min-width: 150px;
     margin: 0% 10%;
     padding: 10px 25px;
     background-color: white;
@@ -25,6 +28,7 @@ body {
     border-radius: 20px;
     text-align: center;
     font-family: var(--sans-serif);
+    line-height: 25px;
 }
 
 .top {
@@ -105,7 +109,7 @@ a:hover {
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: hsl(35, 100%, 50%);
+    background-color: var(--dark-orange);
     font-family: var(--sans-serif);
     font-size: 32px;
     font-weight: 700;
@@ -115,7 +119,7 @@ a:hover {
 
 .button:hover {
     transform: scale(110%);
-    background-color: hsl(35, 100%, 60%);
+    background-color: var(--light-orange);
 }
 
 .button:active {
