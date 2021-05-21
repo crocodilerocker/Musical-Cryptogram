@@ -31,11 +31,18 @@ body {
     line-height: 25px;
 }
 
+a {
+    color: black;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    color: var(--dark-orange);
+}
+
 .top {
     justify-content: center;
 }
-
-/* Top elements */
 
 h1, h2{
     font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
@@ -66,8 +73,6 @@ h2 {
     font-size: 15px;
 }
 
-/* Bottom elements */
-
 .generator {
     width: 100%;
 }
@@ -84,6 +89,7 @@ h2 {
 }
 
 .button {
+    display: inline;
     width: 100px;
     padding: 10px;
     margin: 20px 0px;
@@ -95,16 +101,24 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     cursor: pointer;
-    transition: .2s;
+    transition: all 0.2s linear;
 }
 
 .button:hover {
-    transform: scale(110%);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     background-color: var(--light-orange);
 }
 
 .button:active {
-    transform: scale(100%);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
 
 .credits {
@@ -112,13 +126,3 @@ h2 {
     font-size: 10px;
 }
 
-/* Links */
-
-a {
-    color: black;
-    transition: .2s;
-}
-
-a:hover {
-    color: var(--dark-orange);
-}
