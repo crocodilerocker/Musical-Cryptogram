@@ -101,7 +101,7 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.2s linear;
+    transition: all 750ms linear;
 }
 
 .button:hover {
